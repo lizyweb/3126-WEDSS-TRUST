@@ -1,0 +1,31 @@
+:root {
+    --brand: #01b5fb;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Widget tags */
+.widget-tags ul > li {
+   
+    margin: 3px;
+    align-items: center;
+  }
+  
+  .widget-tags ul > li a {
+    border: 1px solid #dadada;
+    color: #303030;
+    display: block;
+    font-size: 25px;
+    padding: 3px 15px;
+    transition: all 0.3s ease 0s;
+    background: var(--sub);
+    text-align: center;
+  }
+  
+  .widget-tags ul > li a:hover {
+    background: var(--brand);
+    color: #fff;
+    border: 1px solid transparent;
+  }
